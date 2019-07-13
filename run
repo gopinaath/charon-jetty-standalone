@@ -1,0 +1,4 @@
+./gradlew assemble
+cp build/libs/charon-jetty-standalone-1.0.war jetty-distribution-9.4.19.v20190610/webapps/
+cd jetty-distribution-9.4.19.v20190610
+java -jar start.jar
