@@ -15,7 +15,6 @@ dependencies {
     compile (group: 'com.github.mkopylec', name: 'charon-spring-webmvc', version: '4.4.0') {
         exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
     }
-    providedRuntime group: 'org.springframework.boot', name: 'spring-boot-starter-tomcat', version: '2.1.6.RELEASE'
     providedCompile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
 }
 
